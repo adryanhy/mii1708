@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+        <script type="text/javascript">
+            window.onload = function(){
+                document.querySelector(".menuMobile").addEventListener("click", function(){
+                    if(document.querySelector(".menu nav ul").style.display == 'flex') {
+                        document.querySelector(".menu nav ul").style.display = 'none';
+                    }else{
+                        document.querySelector(".menu nav ul").style.display = 'flex';
+                    }
+                });
+            };
+        </script>
+    <link rel="stylesheet" href="./style.css">
+    <title>17/08</title>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <!-- <a href=""><img src="assets/images/logo.png"></a>  -->
+             </div>
+            <div class="menu">
+                <nav>
+                    <div class="menuMobile">
+                        <div class="mm_line"></div>
+                        <div class="mm_line"></div>
+                        <div class="mm_line"></div>
+                    </div>
+                    <ul>
+                        <li class= "active"><a href="secao2">EITA COMO EU AMO</a></li>
+                        <li><a href="secao3">PRESENTES</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <section id="secao1">
+        <div class="container">
+            <div class="row">
+                <div class="col" id="titulo">
+                    <img src="/images/parabens.png" alt="Parabens">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <img src="/images/maromba.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="secao2">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col" id="eita-como-amo"><img src="/images/botão-eita-como-eu-amo[.png" alt=""></div>
+            </div>
+            <div class="imagem" id="img-celular">
+                <div class="col">
+                    <img src="/images/cel.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="secao3">
+        <div class="container">
+            <div class="row">
+                <div class="col-4" id="title-presente">
+                    <img src="/images/botão-presente.png" alt="Imagem 1" class="">
+                </div>
+                <div class="col-8" id="caveira-img">
+                    <img src="/images/caveira-SOLTA-do-presente.png" alt="Imagem 2" class="img-fluid">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-6" id="coluna-presente-1">
+                    <img src="/images/presente-SOLTO-rosa.png" alt="Imagem 1" class="">
+                </div>
+                <div class="col-6" id="coluna-presente-2">
+                    <img src="/images/presente-SOLTO-roxo.png" alt="Imagem 2" class="">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-6" id="coluna-presente-3">
+                    <img src="/images/presente-SOLTO-amarelo.png" alt="Imagem 1" class="">
+                </div>
+                <div class="col-6" id="coluna-presente-4">
+                    <img src="/images/presente-solto-rosinha.png" alt="Imagem 2" class="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="secao4">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <img src="/images/botão-mensagem-mais-q-especial.png" alt="Mensagem mais que especial">
+                </div>
+                <!--
+                <div class="col">
+                    <video src=""></video>
+                </div>
+                -->
+                <div class="col" id="gato-maromba">
+                    <img src="/images/gato-maromba.png" alt="img-fluid">
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer id="rodape">
+        <img src="/images/Ativo 1.png" alt="img-fluid">
+    </footer>
+
+</body>
+
+</html>

@@ -1,0 +1,174 @@
+body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    margin-left: -18px;
+}
+
+html, body{
+    background-image: url(/images/fundo-liso.png);
+}
+
+#secao1{
+    background-image: url(/images/enfeite.png);
+}
+
+#eita-como-amo{
+    margin-left: -10px;
+    margin-top: -5px;
+}
+
+#img-celular{
+    margin-left: -21%;
+}
+
+#title-presente{
+    margin-left: -20px;
+}
+
+#title-presente img{
+    width: 180%;
+}
+
+#secao2{
+    margin-bottom: 150px;
+}
+
+#caveira-img{
+    margin-top: -80px;
+}
+
+#caveira-img img{
+    margin-left: 40px;
+}
+
+#gato-maromba img{
+    width: 100%;
+}
+
+#rodape {
+    margin-top: -290px;
+}
+
+header {
+    background-color: #FF007A;
+    height: 60px;
+}
+
+.navbar{
+    background-color: #FF007A;
+}
+
+.navbar-toggler{
+ color: #fff;   
+}
+
+a.nav-link {
+    color: #fff !important;
+    font-weight: 700;
+    text-align: center;
+    margin-left: -120px;
+    background-image: url(/images/enfeite-da-caixa-de-menu.png);
+}
+
+#nav-principal{
+    background-image: url(/images/enfeite-da-caixa-de-menu.png);
+}
+
+#nav-principal img{
+    margin-left: -80px;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    height: 120px;
+}
+
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+    align-items: center;
+    margin-left: 180px;
+}
+
+nav ul,
+nav li{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul{
+    display: flex;
+}
+
+nav a{
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color:#FFF;
+    font-family: Arial;
+}
+
+nav .active a,
+nav a:hover{
+    background-color:#FF007A;
+    color: #fff;
+
+}
+
+.menuMobile{
+    display: none;
+    width: 40px;
+    height: 40px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-right: 20px;
+}
+
+.mm_line{
+    height: 3px;
+    background-color: #FFF;
+}
+
+@media (max-width: 768px){
+
+header .container{
+        flex-direction: row;
+    }
+
+    nav ul{
+        flex-direction: column;
+        display: none;
+        position: absolute;
+        left: 0;
+        width: 100%;
+        background-color: #FF007A;
+    }
+
+    header{
+        height: auto;
+        width: auto;
+    }
+
+    .logo{
+        padding-left: 20px;
+    }
+
+    .menuMobile{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+
+
+}
